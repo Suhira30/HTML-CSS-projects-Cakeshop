@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>New User</title>
+        <link rel="stylesheet" type="text/css" href="final.css">
+        <script>
+            function validateForm(){
+                let x=document.forms["myForm"]["name"].value;
+                if(x==""){
+                    alert("Can you please fill your name ");
+                    return false;
+                }
+            }
+            
+                    </script>
+    </head>
+    <body class="b">
+        <div class="container1">
+            <div class="form">
+                <div class="container-info"></div>       
+                <div class="contact-form">
+                    <form name="myForm" onsubmit="return validateForm()" method="post">
+                        <h3 class="contactus">Feedback</h3>
+                   <div class="input-container">
+                    <input type="text" name="name" class="input" >
+                        <lable for="name" class="c"> User Name</lable>
+                   </div>
+
+                   <div class="input-container">
+                    <input type="email" name="email" class="input" >
+                        <lable for="Email" class="c"> Email</lable>
+                   </div>
+
+                   <div class="input-container">
+                    <input type="tel" name="phone" class="input" >
+                        <lable for="Phone" class="c"> Phone</lable>
+                   </div>
+                   <div class="input-container">
+                    <input type="text" name="service" class="input" >
+                        <lable for="service" class="c">about our service</lable>
+                   </div>
+
+
+                   <div class="input-container textarea">
+                    <textarea name="message" class="input"></textarea>
+                        <lable for="message" class="c">Message</lable>
+                   </div>
+                   <input type="submit" value="submit" class="btn">
+                   
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>

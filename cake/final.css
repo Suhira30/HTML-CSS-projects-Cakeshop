@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,800;0,900;1,700&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,800;0,900;1,700&family=Sacramento&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Cormorant+SC:wght@400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,800;0,900;1,700&family=Sacramento&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Cormorant+SC:wght@400;500;700&family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Merienda:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,800;0,900;1,700&family=Sacramento&family=Satisfy&display=swap');
+
+nav{
+justify-content: space-around;
+background-image:url('background7.jpg');
+
+height:500;
+background-size:cover;
+
+}
+
+
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    background-color: palevioletred;
+margin-top: -400;
+width: 700;
+
+}
+.nav2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25;
+    margin-left: 10;
+    
+}
+
+.gif1{
+   margin-top: 100;
+   opacity: 0.8;
+   margin-left: 200;
+}
+.para{
+    margin-left: 30;
+    text-align: justify;
+    margin-top: 120;
+    width: 600;
+  
+
+font-family: 'Poppins', sans-serif;
+
+}
+.u1{
+    margin-left: 90;
+margin-top: 10;
+    list-style: disc;
+line-height: 1.5;
+}
+.u2{
+    list-style:square;
+    margin-left:15 ;
+
+}
+
+.jummy{
+margin-left: 50;
+    font-size: 100;
+font-family: 'Comfortaa', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+color: rgb(48, 19, 6)
+}
+
+.img1{
+    width: 250;
+    height: 300;
+}
+
+.table1{
+    
+    table-layout: auto;
+    width:500;
+height: 400;
+border-spacing: 15;
+margin-left: 100;
+}
+.td1{
+    border-style:groove;
+    border-radius: 10; 
+    border-width: 2; 
+    padding: 15;
+    border-collapse:separate;
+
+}
+.cake{
+    font-size: 20;
+    text-transform: capitalize;
+    margin-top: 5
+}
+.heading{
+    text-align: center;
+    font-size: 32;
+    background-color:rgba(235, 191, 191, 0.821) ;
+
+}
+.fa-heart{
+    font-size: 18;
+    color: red;
+}
+.fa-cart-plus{
+    font-size: 15; 
+   margin-left: 110;
+}
+
+.price{
+font-size: 25;
+font-weight:500;
+}
+.Addtocart{
+    margin-left: 2;
+    font-size: 16;
+    background-color: rgb(255, 253, 253);
+    border-color: gainsboro;
+    font-weight:lighter;
+}
+button{
+    border: none;
+    display: inline-block;
+    background-color: white;
+
+
+}
+
+/*contact information*/
+.b{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box; 
+   background-image: url('contact\ us1.jpg' );
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+.container1{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 70;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+.form{
+    width:40%;
+    max-width: 700px;
+    height: 400px;
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180;
+    margin-left: 150;
+    
+
+
+}
+.contactus{
+    margin-top: -180;
+    padding-bottom: 10;
+    text-decoration: underline solid 2px ;
+    font-size: 30;
+    margin-left: 40;
+    color: rgb(219, 5, 112);
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+.input{
+    width: 220;
+    height: 30;
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+    background: none;
+    padding:0.6rem 1.2 rem;
+    font-size: 10;
+    letter-spacing: 0.3px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-top: 10;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    margin-top: 20;
+    width: 100;
+    font-size: 18;
+    font-weight: 900;
+    color: rgb(214, 108, 108);
+    background-color:rgb(234, 228, 228);
+    border: groove rgb(146, 144, 144);
+    border-radius: 11px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+.c{
+
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-weight: 900;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Sacramento&display=swap');
+body{
+    line-height: 1.5;
+    font-family: 'Comfortaa', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap ;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: rgb(229, 176, 185);
+    padding: 50px 0;
+}
+.footer-col{
+width: 33%;
+padding: 0 5px;
+
+}
+.footer-col h4{
+    font-size: 20;
+    color:black ;
+    text-transform:capitalize;
+    margin: bottom 30px; 
+    font-weight:bolder;
+    position: relative;
+    padding-bottom: 10;
+    
+}
+.footer-col h4::before{
+content: '';
+position: absolute;
+left:0;
+bottom: 5;
+background-color:rgb(220, 81, 102);
+height: 1.5px;
+box-sizing: border-box;
+width: 60px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    color: black;
+transition: all 0.5s ease;
+}
+.d {
+    color:black;
+    font-style:italic;
+    font-weight: 900;
+    background-color: red;
+}
+
+
+
+
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        padding: 0 15;
+        margin-bottom: 30;
+    }
+}
